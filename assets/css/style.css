@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+      
+}   
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/bg.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 200%;
+    font-size: 16px;
+}
+
+.main-header{
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    height: 75px; 
+    width: 100%;
+}
+
+.heading{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.heading header{
+    display: inline-block;
+    background: #4aaaa5;
+    padding: 25px;
+    color: #ffffff;
+    height: 75px;
+}
+
+nav{
+    float: right;
+    height: 75px;   
+    padding-top:25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #777777;
+}
+
+.active{
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+.separator{
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #cccccc;
+}
+
+
+nav a:hover{
+    color: dimgrey;
+     font-weight: bold;
+} 
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;   
+    overflow: hidden; 
+}
+
+.main-content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #666666;
+    text-align: center;
+    color: #dddddd;
+    clear: both;
+    height: 47px;
+    margin-bottom: 0;
+    font-size: 12px;
+    padding-top:12px;
+    border-top: 4px solid #4aaaa5;
+}
+
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+h1, .project-info{
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+.container h1{
+    color: #4aaaa5;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #dddddd;
+}
+
+#bio-image{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-top:8px;
+}
+
+.container p{
+    text-align: justify;
+}
+
+input[type=text],textarea{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+textarea{
+    height: 200px;
+}
+
+
+input[type=submit] {
+    background-color:#4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#ccc;
+    opacity: 1; /* Firefox */
+}
+
+.project{
+    height: 210px;
+    width: 250px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    float: left;
+    position: relative;
+}
+
+.project:hover{
+    box-shadow: 5px 10px #cccccc;
+}
+
+.project img{
+    height: 210px;
+    width: 250px;
+}
+
+.project-info{
+    width: 250px;
+    position: absolute;
+    bottom: 8px;
+    background-color: #4aaaa5;
+    padding: 8px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
