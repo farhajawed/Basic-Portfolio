@@ -94,6 +94,12 @@ nav a:hover{
     margin-bottom: 30px;
 }
 
+.main-content a{
+    color: #777777
+}
+.main-content p a:hover{
+    font-weight: bold;
+}
 
 h1 {
     display: block;
