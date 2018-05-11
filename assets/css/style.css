@@ -22,7 +22,7 @@ html,body{
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 47px; /* height of  footer */
+    padding-bottom: 70px; /* height of  footer */
 }
 
 .main-header{
@@ -41,8 +41,12 @@ html,body{
     display: inline-block;
     background: #4aaaa5;
     padding: 25px;
-    color: #ffffff;
     height: 75px;
+}
+
+.heading header a{
+    color: #ffffff;
+    text-decoration: none;
 }
 
 nav{
@@ -184,13 +188,22 @@ footer{
     background-color: #666666;
     text-align: center;
     color: #dddddd;
-    height: 47px;
-    /* margin-bottom: -1px; */
+    height: 70px;
     font-size: 12px;
-    padding-top:12px;
+    padding-top:10px;
+    padding-bottom: 2px;
     border-top: 4px solid #4aaaa5;
     position: absolute;
     bottom:0;
     width: 100%;
+}
+.connect-container{
+  height: 25px;
+  padding: 0px;
+}
+.connect{
+    font-size:25px;
+    color: white;
+    margin-left: 8px;
 }
 
